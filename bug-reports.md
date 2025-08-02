@@ -13,7 +13,6 @@ Bug Report: Missing Checkmark Icon When Marking Task as Complete
 * Browser/App Version: Dia Version 0.39.0 (65837), Chrome 138.0.7204.185
 * Date Tested: 2 August 2025
 
-⠀**Status:** Fail
-
 **Status:** Resolved
-**Resolution:** Added missing `unchecked.png` and `checked.png` image files to the `images` directory, which were referenced by `style.css` for the checkmark icon.
+**Date Resolved:** 2 August 2025
+**Resolution:** The issue was due to missing `unchecked.png` and `checked.png` image files. These were added to the `images` directory, allowing `style.css` to correctly display the checkmark icon when a task is marked complete.
