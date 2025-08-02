@@ -14,3 +14,6 @@ Bug Report: Missing Checkmark Icon When Marking Task as Complete
 * Date Tested: 2 August 2025
 
 ⠀**Status:** Fail
+
+**Status:** Resolved
+**Resolution:** Added missing `unchecked.png` and `checked.png` image files to the `images` directory, which were referenced by `style.css` for the checkmark icon.
