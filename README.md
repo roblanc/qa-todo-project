@@ -57,3 +57,21 @@ With the current functional test cases passing, here are areas for future qualit
 -   **Expanding Test Cases:** Develop additional formal test cases based on new features, identified edge cases, or deeper functional requirements.
     *   *Examples:* Writing test cases for new features like task editing, task categorization, or search functionality if implemented.
 -   **Code Review:** Perform a review of the application's source code (`index.html`, `style.css`, `script.js`) for maintainability, best practices, and potential areas of improvement or future bugs.
+
+## 9. Automated UI Testing with Playwright
+
+To enhance the testing capabilities and build a robust QA portfolio, automated UI testing has been introduced using Playwright. Playwright is a powerful Node.js library that enables reliable end-to-end testing across modern web browsers.
+
+**Setup and First Tests:**
+
+1.  **Node.js Environment:** Confirmed Node.js (v22.18.0) is installed.
+2.  **Project Initialization:** A `package.json` file was created to manage project dependencies.
+3.  **Playwright Installation:** Playwright (`@playwright/test`) was installed as a development dependency.
+4.  **Browser Binaries:** Essential browser binaries (Chromium, Firefox) were installed for cross-browser testing.
+5.  **Test File Creation:** A new test file (`tests/example.spec.js`) was created with two initial automated tests:
+    *   Verifying the application's title.
+    *   Verifying the ability to add a new task.
+6.  **Local Server Setup:** A simple Python HTTP server was started to serve the application locally for testing (`http://localhost:8000`).
+7.  **Test Execution:** The automated tests were executed using `npx playwright test`.
+
+**Result:** Both initial Playwright tests passed successfully, demonstrating the foundational setup for automated UI testing in this project.
