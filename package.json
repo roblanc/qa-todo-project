@@ -4,7 +4,7 @@
   "description": "This document outlines the testing strategy for the Simple To-Do List application. This is a basic web application that allows users to add, delete, and mark tasks as complete. The application is built with HTML, CSS, and JavaScript, and it uses local storage to persist data.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test"
   },
   "repository": {
     "type": "git",
